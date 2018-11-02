@@ -1,0 +1,110 @@
+html, body {
+	font-family: "Arial";
+	padding: 0;
+	margin: 0;
+}
+
+
+#container {
+	position: relative;
+	width: 700px;
+	height: 380px;
+	border: 1px solid #666666;
+	margin: auto;
+	margin-top: 40px;
+	background: #333333;
+}
+
+
+#my_canvas {
+	width: 700px;
+	height: 380px;
+	position: absolute;
+}
+
+
+
+
+.my_container {
+	width: 700px;
+	border: 1px solid #666666;
+	margin: auto;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+
+
+#debug {
+	position: absolute;
+	z-index: 9000;
+	left: 10px;
+	bottom: 10px;
+	width: 300px;
+	max-height: 300px;
+	border: 1px solid #333333;
+	background: #e2e2e2;
+	padding: 10px;
+	font-size: 10px;
+	overflow: auto;
+}
+
+
+
+/* **** buttons **** */
+
+
+.button {
+	border: none;
+	background: #4863a0;
+	padding: 10px;
+	font-size: 14px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+
+.button:hover {
+	background: #deb820;
+}
+
+
+
+
+
+
+.slider {
+	width: 80%;
+}
+
+
+.slider input {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
